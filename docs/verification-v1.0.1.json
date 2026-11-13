@@ -1,0 +1,122 @@
+{
+  "version": "1.0.1",
+  "official_structure_validator": "passed",
+  "automated_checks": [
+    {
+      "case": "论文必要术语、对照句和标题不因词表触发误报",
+      "result": "passed"
+    },
+    {
+      "case": "直接引语、引用块与代码块不接受风格扫描",
+      "result": "passed"
+    },
+    {
+      "case": "章节片段不要求全文摘要或参考文献",
+      "result": "passed"
+    },
+    {
+      "case": "全文只检查明确指定的真实标题，正文提及不能冒充标题",
+      "result": "passed"
+    },
+    {
+      "case": "待补充证据可见，年份随指定时间变化且只提示核查",
+      "result": "passed"
+    },
+    {
+      "case": "审校仅输出提示，不修改文本或加强限定判断",
+      "result": "passed"
+    },
+    {
+      "case": "审校命令实际运行并保持输入文件原样",
+      "result": "passed"
+    },
+    {
+      "case": "离线模拟搜索能去重、排序、生成引文草稿并保留部分失败信息",
+      "result": "passed"
+    },
+    {
+      "case": "默认不调用账号来源，明确指定才调用，未知来源报错",
+      "result": "passed"
+    },
+    {
+      "case": "搜索入口帮助和八个适配器导入实际通过，不发网络请求",
+      "result": "passed"
+    },
+    {
+      "case": "TLS失败停止，不重试未验证连接，也不向外层错误回显参数",
+      "result": "passed"
+    },
+    {
+      "case": "全部Python语法、内部链接、名称与界面元数据一致",
+      "result": "passed"
+    },
+    {
+      "case": "不同非空DOI的同名文献不合并",
+      "result": "passed"
+    },
+    {
+      "case": "缺DOI时同标题还需同作者和同年份支持",
+      "result": "passed"
+    },
+    {
+      "case": "缺DOI的歧义记录在全部输入顺序中均保留",
+      "result": "passed"
+    },
+    {
+      "case": "DOI格式归一、元数据冲突可见且输入未被修改",
+      "result": "passed"
+    },
+    {
+      "case": "所有引用样式不从载体缺失猜文献类型，未知样式报错",
+      "result": "passed"
+    },
+    {
+      "case": "Crossref保存显式类型和语言，不把建档日期当出版年份",
+      "result": "passed"
+    },
+    {
+      "case": "四个网页适配器缺少解析依赖时明确失败且不先发请求",
+      "result": "passed"
+    },
+    {
+      "case": "跨行、嵌套及未闭合引文保守保护，英文撇号不误遮正文",
+      "result": "passed"
+    },
+    {
+      "case": "编号、加粗及空格标题可识别，正文提及和引文不能冒充标题",
+      "result": "passed"
+    },
+    {
+      "case": "知网查询JSON能往返保留引号、反斜线和换行",
+      "result": "passed"
+    },
+    {
+      "case": "CORE保留单独downloadUrl，DOI回退只标注文献记录",
+      "result": "passed"
+    },
+    {
+      "case": "普通链接不宣称全文，载体也不统一宣称期刊",
+      "result": "passed"
+    },
+    {
+      "case": "查询扩展保留未映射词、年份、原始查询及引号",
+      "result": "passed"
+    },
+    {
+      "case": "理论目录20项与正文一致，表格列数与扩展说明一致",
+      "result": "passed"
+    },
+    {
+      "case": "配置环境变量优先、可显式指定文件且不读取其他项目.env",
+      "result": "passed"
+    }
+  ],
+  "count": 27,
+  "package_integrity": "passed",
+  "directory_archive_match": "passed",
+  "file_count": 35,
+  "sha256": "f900a9dea886a65d3712a13500163647ee7b4407731244bfa48b3f0093e2a629",
+  "network_tested": false,
+  "model_end_to_end_tested": false,
+  "record_scope": "修订交付阶段的本地验证；不表示外部数据库已实测。"
+}

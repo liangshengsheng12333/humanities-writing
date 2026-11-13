@@ -1,0 +1,3 @@
+# Optional: HTML parsing for explicitly selected web adapters.
+# Core writing rules, review script, and default API adapters use no third-party package.
+beautifulsoup4>=4.12.0

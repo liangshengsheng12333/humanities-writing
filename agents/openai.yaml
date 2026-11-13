@@ -1,0 +1,4 @@
+interface:
+  display_name: "人文写作与学术论证"
+  short_description: "按论文与一般写作模式协调学术论证、文献分析、自然中文和去模板审校"
+  default_prompt: "请使用 $humanities-writing，按我的体裁和材料完成写作或审阅，并保持证据、原意和作者声音。"
