@@ -21,7 +21,7 @@ from __future__ import annotations
 import sys, os, json, argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 from lib.schema import Paper, SearchResult
 from lib.query import expand_query, suggest_queries

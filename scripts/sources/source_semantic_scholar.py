@@ -2,7 +2,7 @@
 from __future__ import annotations
 import sys, os
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from lib.schema import Paper, SearchResult
 from lib.http_client import get_json

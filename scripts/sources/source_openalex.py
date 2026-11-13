@@ -4,7 +4,7 @@ import sys, os, re, json
 import urllib.request
 import urllib.parse
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from lib.schema import Paper, SearchResult
 from lib.utils import env_get
